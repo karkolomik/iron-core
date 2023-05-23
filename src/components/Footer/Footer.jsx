@@ -33,20 +33,20 @@ function Footer() {
               </div>
               <p className="text-[16px] font-medium text-[#646464]">
                 Privacy Policy | © {new Date().getFullYear} IronCore <br />
-                Deisgn by
+                Design by
                 <a
                   target="_blank"
                   rel="noreferrer"
                   href="https://nicepage.com/website-design"
                 >
-                  NicePage Inc
+                  &nbsp - NicePage Inc
                 </a>
               </p>
             </div>
 
             <div className="flex flex-col gap-8 relative">
               <p className="text-[22px] font-bold footer-main">Our Classes</p>
-              <span className="top-[22px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
+              <span className="top-[33px] absolute w-[7rem] h-[4px] bg-[#ff0366]"></span>
               <p className="text-[16px] hover:text-[ff0366] cursor-pointer text-[#646464] font-medium hover:ont-bold">
                 The Ride
               </p>

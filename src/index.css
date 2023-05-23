@@ -18,3 +18,140 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* css for all pages */
+
+.container-hero {
+  max-width: 111.6rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 124rem;
+  margin: 0 auto;
+}
+
+.page-padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.nav-btn-hover:hover {
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+
+/* .hero-section {
+  background-image: url("../src/images/hero/hero-img.jpg");
+  width: 100%;
+  height: 110vh;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-text {
+  top: 55%;
+  right: 12px;
+  transform: translate(-50%, -50%);
+} */
+
+.title-white {
+  filter: brightness(0) invert(1);
+}
+
+.hero-cta::after {
+  content: "";
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.362);
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.hero-cta:hover:after {
+  content: "";
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid rgba(255, 255, 255);
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+.about-section {
+  background-image: url("../src/images/who-we-are/background.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-item-div {
+  transition: all 0.2s;
+}
+
+.card-item-div:hover {
+  background-image: url("../src/images/who-we-are/info-card-bg.jpg");
+  color: white;
+}
+
+.about-cta {
+  padding: 1.82rem 3.6rem;
+  transition: all 0.3s;
+  width: 21rem;
+}
+
+.about-cta::after {
+  content: "";
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid rgba(63, 63, 63, 0.362);
+  position: absolute;
+  top: -12px;
+  left: 12px;
+  transition: all 0.4s;
+}
+
+.about-cta:hover:after {
+  content: "";
+  width: 20rem;
+  height: 5.5rem;
+  border: 1px solid #ff0336;
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  transition: all 0.4s;
+}
+
+.girl-flying {
+  width: 100%;
+  height: auto;
+  top: 60%;
+  right: 46%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  z-index: 5;
+}
+
+.girl-bg {
+  width: 51%;
+  height: auto;
+  top: 67.7%;
+  right: 33%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}
+
+.girl-text {
+  width: 17%;
+  height: auto;
+  top: 67.7%;
+  right: 84%;
+  transform: translate(50%, -50%);
+  position: absolute;
+}

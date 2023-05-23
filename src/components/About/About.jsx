@@ -4,9 +4,9 @@ import ExerciseIcon from "../../images/who-we-are/exercise.png";
 import ShapeIcon from "../../images/who-we-are/fitness-ball.png";
 import TeamIcon from "../../images/who-we-are//gymnastics.png";
 import GirlRedBg from "../../images/who-we-are/girl-redbg.svg";
-import FeelingFree from "../../images/who-we-are/FeelingFree.jpg";
+import FeelingFree from "../../images/who-we-are/FeelingFree2.png";
 import FeelingFreeText from "../../images/who-we-are/FeelingFreeText2.png";
-import Wings from "../../images/who-we-are/wings.png";
+// import Wings from "../../images/who-we-are/wings.png";
 
 import React from "react";
 
@@ -23,8 +23,8 @@ function About() {
             className="grid grid-cols-[50fr,50fr] gap-[3rem] md1000:grid-cols-1"
           >
             <div className="mt-[10.5rem] relative md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full]">
-              <p className="text-white font-semibold text-[15px] relative uppercase z-10 pl-16 md1000:pl-0 mb-12">
-                who we are ?
+              <p className="text-white bg-[#ff0336] font-semibold text-[22px] relative uppercase z-10 pl-16 text-center rounded-3xl md1000:pl-0 mb-12">
+                why us ?
               </p>
               {/* <img src="" alt="" />  TITLE BG*/}
               <h2 className="text-[35px] font-bold leading-tight mb-6 w-[60rem] min800:w-[100%]">
@@ -80,11 +80,10 @@ function About() {
               />
             </div>
             <div className="relative md1000:hidden">
-              <img src={FeelingFree} alt="flying" className="girl-flying" /> //
-              - class naming
+              <img src={FeelingFree} alt="flying" className="girl-flying" />
               <img src={GirlRedBg} alt="flying" className="girl-bg" />
               <img src={FeelingFreeText} alt="flying" className="girl-text" />
-              <img src={Wings} alt="flying" className="girl-flying" />
+              {/* <img src={Wings} alt="flying" className="girl-flying" /> */}
             </div>
           </div>
         </div>
