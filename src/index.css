@@ -234,3 +234,249 @@ body {
 *::-webkit-scrollbar-thumb:active {
   background-color: #a0a0a0;
 }
+
+/* after pseudo */
+.item-0-div::after,
+.item-1-div::after,
+.item-2-div::after,
+.item-3-div::after,
+.item-4-div::after,
+.item-5-div::after {
+  content: "";
+  height: 69px;
+  width: 140px;
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  left: -49px;
+  bottom: 50%;
+  border-radius: 0 50px 50px 0;
+  transform: rotate(30deg);
+  transition: all 0.4s;
+  z-index: 5;
+}
+
+.item-0-div:hover:after,
+.item-1-div:hover:after,
+.item-2-div:hover:after,
+.item-3-div:hover:after,
+.item-4-div:hover:after,
+.item-5-div:hover:after {
+  background-color: rgb(255, 255, 255);
+}
+
+/* before pseudo */
+.item-0-div::before,
+.item-1-div::before,
+.item-2-div::before,
+.item-3-div::before,
+.item-4-div::before,
+.item-5-div::before {
+  width: 50%;
+  position: absolute;
+  transition: all 0.4s;
+  z-index: 6;
+  display: block;
+  transform: scale(0.65);
+}
+
+.item-0-div::before {
+  content: url("../src/images/features/boxing.png");
+  left: -25px;
+  bottom: 45%;
+}
+
+.item-1-div::before {
+  content: url("../src/images/features/cycling.png");
+  left: -1px;
+  bottom: 45%;
+}
+
+.item-2-div::before {
+  content: url("../src/images/features/pilates.png");
+  left: -1px;
+  bottom: 45%;
+}
+
+.item-3-div::before {
+  content: url("../src/images/features/dumbbell.png");
+  left: -1px;
+  bottom: 45%;
+}
+
+.item-4-div::before {
+  content: url("../src/images/features/aerobics.png");
+  left: -1px;
+  bottom: 45%;
+}
+
+.item-5-div::before {
+  content: url("../src/images/features/powerpump.png");
+  left: -25px;
+  bottom: 45%;
+}
+
+.item-0-div:hover:before,
+.item-1-div:hover:before,
+.item-2-div:hover:before,
+.item-3-div:hover:before,
+.item-4-div:hover:before,
+.item-5-div:hover:before {
+  transform: scale(0.66);
+}
+
+.item-0-div:hover:before {
+  content: url("../src/images/features/boxing-red.png");
+}
+
+.item-1-div:hover:before {
+  content: url("../src/images/features/cycling-red.png");
+}
+
+.item-2-div:hover:before {
+  content: url("../src/images/features/pilates-red.png");
+}
+
+.item-3-div:hover:before {
+  content: url("../src/images/features/dumbbell-red.png");
+}
+
+.item-4-div:hover:before {
+  content: url("../src/images/features/aerobics-red.png");
+}
+
+.item-5-div:hover:before {
+  content: url("../src/images/features/powerpump-red.png");
+}
+
+/* grid items */
+.item-0,
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5 {
+  filter: grayscale(100%);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 2px 2px 8px 160px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.item-0:hover,
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover {
+  filter: grayscale(0%);
+  transform: scale(1.3);
+  box-shadow: inset 2px 2px 8px 160px rgba(0, 0, 0, 0);
+}
+
+.item-0-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+
+.item-1-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  overflow: hidden;
+}
+
+.item-2-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+
+.item-3-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 2;
+  overflow: hidden;
+}
+
+.item-4-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+  overflow: hidden;
+}
+
+.item-5-div {
+  height: 30rem;
+  width: 100%;
+  grid-row-start: 2;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 5;
+  overflow: hidden;
+}
+
+.item-0 {
+  background-image: url("../src/images/features/boxing.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-1 {
+  background-image: url("../src/images/features/cycling.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-2 {
+  background-image: url("../src/images/features/pilates.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-3 {
+  background-image: url("../src/images/features/lifting.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-4 {
+  background-image: url("../src/images/features/aerobics.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+.item-5 {
+  background-image: url("../src/images/features/PowerPump.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+/* end of grid ^^ */
+
+.featured-cta {
+  background-image: url(../src/images/cool-background2.png);
+  width: 100%;
+  height: 21rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
