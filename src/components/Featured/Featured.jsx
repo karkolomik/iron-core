@@ -9,12 +9,12 @@ function Featured() {
         <div className="container">
           <div className="flex flex-col text-center items-center relative">
             <p className="font-semibold text-white text-[15px] relative uppercase z-10">
-              Most popular classes
+              THe Most popular classes
             </p>
             <img
               src={BgSplash}
               alt="s"
-              className=" w-[28%] absolute -top-[8rem]"
+              className=" w-[30%] absolute -top-[9rem]"
             />
             <h2 className="pt-12 text-[3.6rem] text-black font-bold my-8">
               Don't waste time, join us now!
