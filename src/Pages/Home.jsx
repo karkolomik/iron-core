@@ -5,6 +5,7 @@ import Hero from "../components/Hero/Hero";
 import Featured from "../components/Featured/Featured";
 import ChooseUs from "../components/ChooseUs/ChooseUs";
 import Trainers from "../components/Trainers/Trainers";
+import FeedBackList from "../components/FeedBack/FeedBackList";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Featured />
       <ChooseUs />
       <Trainers />
+      <FeedBackList />
       <Footer />
     </>
   );
