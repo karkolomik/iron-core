@@ -39,7 +39,7 @@ function Footer() {
                   rel="noreferrer"
                   href="https://nicepage.com/website-design"
                 >
-                  &nbsp - NicePage Inc
+                  &nbsp; - NicePage Inc
                 </a>
               </p>
             </div>

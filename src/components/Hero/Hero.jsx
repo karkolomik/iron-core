@@ -11,7 +11,7 @@ function Hero() {
             className="flex flex-col text-white
            absolute hero-text min800:items-center min800:-right-[22rem] min620:-right-[20rem] min800:w-[80%] min540:-right-[17rem] min450:-right-[14rem] min375:-right-[11rem]"
           >
-            <p className="text-black text-[20px] uppercase font-medium relative z-10 pl-16 m-8 mr-8 min800:pl-0 mb-8">
+            <p className="text-black text-[22px] uppercase font-medium relative z-10 pl-16 m-8 mr-8 min800:pl-0 mb-8">
               &nbsp; it's time to &nbsp;
             </p>
             <img

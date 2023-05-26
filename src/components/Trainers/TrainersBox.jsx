@@ -3,16 +3,16 @@ import Trainer1 from "../../images/trainers/trainer1.png";
 import Trainer2 from "../../images/trainers/trainer2-croped.png";
 import Trainer3 from "../../images/trainers/trainer3.png";
 import TrainerBg from "../../images/trainers/trainer-bg.png";
-import Shape from "../../images/trainers/shape.png";
 
 function TrainersBox() {
   const [imgHover, setImgHover] = useState(false);
+
   const hoverBox = () => {
-    setImgHover = true;
+    setImgHover(true);
   };
 
   const hoverBoxRemover = () => {
-    setImgHover = false;
+    setImgHover(false);
   };
 
   const trainers = [
@@ -36,7 +36,7 @@ function TrainersBox() {
   return (
     <>
       <div
-        className="flex justify-center gap-[5rem] md1200:flex-wprap"
+        className="flex justify-center gap-[6rem] md1200:flex-wprap"
         style={{ margin: "0 auto" }}
       >
         {trainers.map((trainer, id) => (
@@ -49,7 +49,7 @@ function TrainersBox() {
               src={trainer.img}
               alt="trainer"
               style={{ transition: "all 0.3s" }}
-              className={`w-[22rem] z-10 relative grayscale mx-auto ${
+              className={`w-[38rem] z-10 relative grayscale mx-auto ${
                 imgHover ? "hover:grayscale-0" : ""
               }`}
             />
@@ -57,17 +57,11 @@ function TrainersBox() {
               style={{ transition: "all 0.3s" }}
               src={TrainerBg}
               alt="bg"
-              className={`absolute top-[4px] w-full scale-[1]`}
+              className={`absolute top-[15px] w-full scale-[1.2]`}
             />
 
             <div className="box-desc bg-white w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px]">
-              <img
-                src={Shape}
-                alt="bg"
-                className="absolute -top-[25px] left-[113px]"
-              />
-              <i className="fa-solid d fa-angle-up absolute -top-[16px] left-[162px] text-3xl"></i>
-              <h3 className="font-bold text-[2.4rem ]">{trainer.name}</h3>
+              <h3 className="font-bold text-[1.5rem]">{trainer.name}</h3>
               <p className="font-medium text-[1.5rem] text-[#646464] ">
                 {trainer.job}
               </p>

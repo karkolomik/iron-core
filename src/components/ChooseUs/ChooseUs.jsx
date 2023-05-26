@@ -2,7 +2,7 @@ import React from "react";
 import MainButton from "../MainButton";
 import BgLogo from "../../images/choose-us/title-bg2.png";
 import NumberOne from "../../images/choose-us/1.png";
-import Gym from "../../images/choose-us/gym.png";
+import Plan from "../../images/choose-us/to-do-list.png";
 import WithLove from "../../images/choose-us/fitness.png";
 import TeamWork from "../../images/choose-us/help.png";
 import PlayIcon from "../../images/choose-us/play.png";
@@ -51,7 +51,7 @@ function ChooseUs() {
                 <img
                   src={TeamWork}
                   alt="image"
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-3xl p-4"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
                   Supportive Community
@@ -62,7 +62,7 @@ function ChooseUs() {
                 <img
                   src={WithLove}
                   alt="image"
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-3xl p-4"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
                   Flexible Memberships
@@ -73,7 +73,7 @@ function ChooseUs() {
                 <img
                   src={NumberOne}
                   alt="image"
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-3xl p-4"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
                   Expert Trainers
@@ -82,9 +82,9 @@ function ChooseUs() {
 
               <div className="flex items-ceneter gap-6">
                 <img
-                  src={Gym}
+                  src={Plan}
                   alt="image"
-                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"
+                  className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-3xl p-4"
                 />
                 <p className="text-white font-bold text-[18px] max-w-[150px]">
                   Customized Programs
