@@ -15,7 +15,7 @@ function FeedBackList() {
         <div className="container page-padding">
           {/* title */}
           <div className="text-center relative items-center w-full flex flex-col">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold -mb-[10.5rem]">
+            <p className="text-white relative z-10 text-[20px] uppercase font-bold -mb-[10.5rem]">
               FeedBacks
             </p>
             <img src={BgImage} alt="bg" className="w-[23rem] relative top-14" />
@@ -54,37 +54,37 @@ function FeedBackList() {
         </div>
 
         <div
-          className="flex gap-5 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 flex-wrap
+          className="flex gap-24 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 flex-wrap
         "
         >
           <img
             src={Logo1}
             alt="logo"
-            className="scale-[.8] hover:invert"
+            className="scale-[1] hover:invert h-16"
             style={{ transition: "all 0.3s" }}
           />
           <img
             src={Logo2}
             alt="logo"
-            className=" scale-[.8] hover:invert"
+            className=" hover:invert h-16"
             style={{ transition: "all 0.3s" }}
           />
           <img
             src={Logo3}
             alt="logo"
-            className=" scale-[.8] hover:invert"
+            className="scale-[1.8] hover:invert h-14"
             style={{ transition: "all 0.3s" }}
           />
           <img
             src={Logo4}
             alt="logo"
-            className=" scale-[.8] hover:invert"
+            className="scale-[.8] hover:invert h-16"
             style={{ transition: "all 0.3s" }}
           />
           <img
             src={Logo5}
             alt="logo"
-            className=" scale-[.8] hover:invert"
+            className="scale-[.6] hover:invert"
             style={{ transition: "all 0.3s" }}
           />
         </div>

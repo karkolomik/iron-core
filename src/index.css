@@ -555,3 +555,102 @@ body {
   width: 100%;
   height: 4px;
 }
+
+/* gallery grid */
+
+.gallery-grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 6px;
+  height: 100%;
+}
+
+#item-0 {
+  height: 41rem;
+  width: 100%;
+  background-color: #de89dd;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 3;
+
+  background-image: url("../src/images/gallery/photo1.jpg");
+  object-fit: cover;
+  background-size: cover;
+  /* background-position: 0 510px; */
+  background-repeat: no-repeat;
+}
+
+#item-1 {
+  background-color: #f7d9ab;
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+
+  background-image: url("../src/images/gallery/photo2.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: 0px -131px;
+  background-repeat: no-repeat;
+}
+
+#item-2 {
+  background-color: #bc775e;
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 4;
+  grid-column-end: 5;
+
+  background-image: url("../src/images/gallery/photo3.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#item-3 {
+  background-color: #a89ce7;
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 2;
+
+  background-image: url("../src/images/gallery/photo4.jpg");
+  object-fit: cover;
+  background-size: cover;
+  /* background-position: 0 -13px; */
+  background-repeat: no-repeat;
+}
+
+#item-4 {
+  background-color: #dc9f7c;
+  grid-row-start: 3;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+
+  background-image: url("../src/images/gallery/photo5.jpg");
+  object-fit: cover;
+  background-size: cover;
+  /* background-position: 0 -81px; */
+  background-repeat: no-repeat;
+}
+
+/* bmi section */
+
+.bmi-section {
+  background-image: url("../src/images/bmi/bg.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}

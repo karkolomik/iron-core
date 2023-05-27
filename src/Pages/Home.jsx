@@ -6,6 +6,8 @@ import Featured from "../components/Featured/Featured";
 import ChooseUs from "../components/ChooseUs/ChooseUs";
 import Trainers from "../components/Trainers/Trainers";
 import FeedBackList from "../components/FeedBack/FeedBackList";
+import Gallery from "../components/Gallery/Gallery";
+import BMI from "../components/BMI/BMI";
 
 function Home() {
   return (
@@ -16,6 +18,8 @@ function Home() {
       <ChooseUs />
       <Trainers />
       <FeedBackList />
+      <Gallery />
+      <BMI />
       <Footer />
     </>
   );

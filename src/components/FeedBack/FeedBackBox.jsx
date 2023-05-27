@@ -16,7 +16,7 @@ function FeedBackBox({ text, name, job }) {
       <img
         alt="box_img"
         src={FeedBackIcon}
-        className="w-[17.5rem] absolute bottom-0 right-[13.5rem] invert opacity-40"
+        className="w-[13rem] absolute bottom-0 right-[13.5rem] invert opacity-40"
       />
     </div>
   );
