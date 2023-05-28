@@ -8,6 +8,7 @@ import Trainers from "../components/Trainers/Trainers";
 import FeedBackList from "../components/FeedBack/FeedBackList";
 import Gallery from "../components/Gallery/Gallery";
 import BMI from "../components/BMI/BMI";
+import Pricing from "../components/Pricing/Pricing";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <FeedBackList />
       <Gallery />
       <BMI />
+      <Pricing />
       <Footer />
     </>
   );
