@@ -189,14 +189,6 @@ body {
 *::-webkit-scrollbar-thumb:active {
   background-color: #a0a0a0;
 }
-/* scrollbar ------------------------- */
-
-/* Firefox */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #a0a0a0 #ffffff;
-  scroll-behavior: smooth;
-}
 
 /* after pseudo */
 .item-0-div::after,
@@ -657,6 +649,88 @@ body {
 
 .gallery-cta {
   display: none;
+}
+
+/* login */
+.login-section {
+  background-image: url("../src/images/who-we-are/background.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.login-banner {
+  background-image: url("../src/images/login/cool-background.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35vh;
+}
+
+/* classes page ----- */
+
+.cycling-bg,
+.boxing-bg,
+.lifting-bg,
+.aerobics-bg,
+.pilates-bg,
+.powerpump-bg,
+.HIIT-bg,
+.shaping-bg,
+.dance-bg,
+.zumba-bg,
+.kickboxing-bg {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cycling-bg {
+  background-image: url("../src/images/ClassesPage/cycling.jpg");
+}
+
+.boxing-bg {
+  background-image: url("../src/images/ClassesPage/boxing.jpg");
+}
+
+.lifting-bg {
+  background-image: url("../src/images/ClassesPage/lifting.jpg");
+}
+
+.aerobics-bg {
+  background-image: url("../src/images/ClassesPage/aerobics.jpg");
+}
+
+.powerpump-bg {
+  background-image: url("../src/images/ClassesPage/PowerPump.jpg");
+}
+
+.pilates-bg {
+  background-image: url("../src/images/ClassesPage/pilates.jpg");
+}
+.yoga-bg {
+  background-image: url("../src/images/ClassesPage/yoga.jpg");
+}
+.zumba-bg {
+  background-image: url("../src/images/ClassesPage/zumba.jpg");
+}
+.HIIT-bg {
+  background-image: url("../src/images/ClassesPage/HIIT.jpg");
+}
+.shaping-bg {
+  background-image: url("../src/images/ClassesPage/shaping.jpg");
+}
+.dance-bg {
+  background-image: url("../src/images/ClassesPage/dance.jpg");
+}
+.kickboxing-bg {
+  background-image: url("../src/images/ClassesPage/kickboxing.jpg");
 }
 
 /* MEDIA QUERIES --------------------------------*/

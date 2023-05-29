@@ -3,7 +3,7 @@ import { galleryImages } from "./galleryImages";
 import { Link } from "react-router-dom";
 
 function GalleryPage1() {
-  const firstPageImgs = galleryImages.filter((item) => item.id <= 8);
+  const firstPageImgs = galleryImages.filter((item) => item.id <= 9);
   const goTop = () => {
     window.scrollTo({
       top: 0,
@@ -15,7 +15,7 @@ function GalleryPage1() {
       <div className="grid grid-cols-3 gap-7 md1000:grid-cols-2 min540:grid-cols-1">
         {firstPageImgs.map((image) => (
           <div key={image.id}>
-            <img src={image.img} alt="image" className="w-[400px] h-[400px]" />
+            <img src={image.img} alt="image" className="w-auto h-auto" />
           </div>
         ))}
       </div>

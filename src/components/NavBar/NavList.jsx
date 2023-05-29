@@ -4,7 +4,7 @@ function NavList() {
   const goTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "none",
+      behavior: "smooth",
     });
   };
   return (
@@ -22,14 +22,6 @@ function NavList() {
         >
           <Link onClick={goTop} to={"/gallery/page-1"}>
             Gallery
-          </Link>
-        </li>
-        <li
-          style={{ transition: "all 0.3s" }}
-          className=" cursor-pointer hover:text-[#ff0336]"
-        >
-          <Link onClick={goTop} to={"/schedule/monday"}>
-            Schedule
           </Link>
         </li>
         <li

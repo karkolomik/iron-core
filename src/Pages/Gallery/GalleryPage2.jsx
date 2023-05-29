@@ -3,7 +3,7 @@ import { galleryImages } from "./galleryImages";
 import { Link } from "react-router-dom";
 
 function GalleryPage2() {
-  const secondPageImgs = galleryImages.filter((item) => item.id > 8);
+  const secondPageImgs = galleryImages.filter((item) => item.id > 9);
   const goTop = () => {
     window.scrollTo({
       top: 0,
