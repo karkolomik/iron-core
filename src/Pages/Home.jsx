@@ -9,6 +9,7 @@ import FeedBackList from "../components/FeedBack/FeedBackList";
 import Gallery from "../components/Gallery/Gallery";
 import BMI from "../components/BMI/BMI";
 import Pricing from "../components/Pricing/Pricing";
+import CtaBanner from "../components/CtaBanner/CtaBanner";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <Gallery />
       <BMI />
       <Pricing />
+      <CtaBanner />
       <Footer />
     </>
   );

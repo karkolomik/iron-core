@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../images/logo/logoblack1.png";
-import LogoSide from "../../images/logo/logowhite1.png";
+import Logo from "../../images/logo/logowhite1.png";
+import LogoSide from "../../images/logo/logoblack1.png";
 import NavList from "./NavList";
 import SideImg1 from "../../images/sidebar/1.jpg";
 import SideImg2 from "../../images/sidebar/2.jpg";
@@ -56,7 +56,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`flex flex-row bg-transparent items-center justify-between py-8 px-12  fixed top-0 left-0 right-0 w-full z-50 ${
+        className={`flex flex-row bg-transparent items-center justify-between py-12 px-16 fixed top-0 left-0 right-0 w-full z-50 ${
           sticky ? "shadow-xl !bg-black" : ""
         }`}
       >
@@ -65,17 +65,17 @@ function Navbar() {
             src={Logo}
             alt="logo_img"
             onClick={goTop}
-            className="w-full h-auto"
+            className="w-[30rem] h-auto"
           />
         </Link>
         <div className="navlist-nav">
           <NavList />
         </div>
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-16">
           <div className="flex gap-10">
             {/* hamburger menu */}
             <div
-              className={`flex top-0 flex-col fixed w-full left-0 h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
+              className={`flex top-0 flex-col fixed w-full h-screen bg-white z-[9999999999] py-[60px] px-[40px] ease-in-out duration-500  ${
                 hamburger ? "left-0" : "-left-[100%]"
               }`}
             >
@@ -99,15 +99,6 @@ function Navbar() {
                   <Link
                     onClick={goTop}
                     className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="/about"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li onClick={hamburgerMenu}>
-                  <Link
-                    onClick={goTop}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
                     to="/schedule/monday"
                   >
                     Schedule
@@ -120,15 +111,6 @@ function Navbar() {
                     to="/gallery/page-1"
                   >
                     Gallery
-                  </Link>
-                </li>
-                <li onClick={hamburgerMenu}>
-                  <Link
-                    onClick={goTop}
-                    className="text-[2rem] font-medium hover:text-[#ff0336] ease-in duration-200"
-                    to="/blog"
-                  >
-                    Blog
                   </Link>
                 </li>
                 <li onClick={hamburgerMenu}>
@@ -165,7 +147,7 @@ function Navbar() {
 
             <div>
               <div
-                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0 left-0 z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
+                className={`flex flex-col fixed w-[40rem] min450:w-full h-[100vh] bg-white top-0  z-[9999999999] p-[45px] gap-24 overflow-x-hidden ease-in-out duration-[0.5s] ${
                   sidebar ? "left-0" : "-left-[100%]"
                 }`}
               >

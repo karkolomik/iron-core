@@ -9,20 +9,12 @@ function NavList() {
   };
   return (
     <>
-      <ul className="flex gap-9 text-white text-[16px] font-medium xl:none">
+      <ul className="flex gap-9 text-white text-[22px] font-medium xl:none">
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
           <a href="/">Home</a>
-        </li>
-        <li
-          style={{ transition: "all 0.3s" }}
-          className=" cursor-pointer hover:text-[#ff0336]"
-        >
-          <Link onClick={goTop} to={"/about"}>
-            About
-          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
@@ -38,14 +30,6 @@ function NavList() {
         >
           <Link onClick={goTop} to={"/schedule/monday"}>
             Schedule
-          </Link>
-        </li>
-        <li
-          style={{ transition: "all 0.3s" }}
-          className=" cursor-pointer hover:text-[#ff0336]"
-        >
-          <Link onClick={goTop} to={"/blog"}>
-            Blog
           </Link>
         </li>
         <li

@@ -22,9 +22,10 @@ function Pricing() {
             <h2 className="text-[3.4rem] font-bold mb-4">
               Pricing Plan for eveyone!
             </h2>
-            <p className="text-[#646464] font-medium text-[15px]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              expedita nihil exercitationem alias? Deserunt, fuga?
+            <p className="text-[#646464] font-medium text-[19px]">
+              Discover our range of membership options designed to suit your
+              fitness goals and budget. <br /> We offer flexible plans to ensure
+              everyone can find the perfect fit for their fitness journey.
             </p>
           </div>
 
@@ -33,6 +34,7 @@ function Pricing() {
               img={image1}
               price={50}
               text1={"Option to use personal gym locker"}
+              title={"Amateur"}
             />
             <PricingBox
               img={image2}
@@ -40,6 +42,7 @@ function Pricing() {
               text1={"Personal coaching"}
               text2={"Regular body composition analysis"}
               text3={"Free bottled water"}
+              title={"Pro"}
             />
             <PricingBox
               img={image3}
@@ -47,6 +50,7 @@ function Pricing() {
               text1={"Personal coaching and message"}
               text2={"Regular body composition analysis"}
               text3={"Unlimited access to group fitness classes"}
+              title={"Expert"}
             />
           </div>
         </div>
