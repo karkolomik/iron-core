@@ -237,7 +237,7 @@ function Navbar() {
               className="fa-bars fa-solid hidden text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"
             ></i>
             {/* account */}
-            <Link onClick={goTop} to="/signup" title="signup_button">
+            <Link onClick={goTop} to="/contact" title="signup_button">
               <i className="fa-regular fa-user  text-white text-4xl cursor-pointer hover:text-[#FF0336] ease-in duration-200"></i>
             </Link>
             {/* sidebar */}
@@ -261,7 +261,7 @@ function Navbar() {
                 }`}
               ></i>
               <h3 className="text-white text-[14px] font-bold uppercase ml-4 mr-8 tracking-wider">
-                join class now
+                Pupm It
               </h3>
             </Link>
           </div>
