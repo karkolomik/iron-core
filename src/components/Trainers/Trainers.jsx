@@ -6,8 +6,8 @@ function Trainers() {
   return (
     <>
       <section id="team" className="trainers-section">
-        <div className="container page-padding py-[12rem]">
-          <div className="flex flex-col items-center text-center relative">
+        <div className="container page-padding py-[12rem] md1000:py-[6rem]">
+          <div className="flex flex-col items-center text-center relative md1000:mb">
             <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-10">
               fitness <br /> instructors
             </p>
@@ -19,7 +19,7 @@ function Trainers() {
             <h2 className="text-[3.4rem] font-bold mb-4">
               Only team of experts
             </h2>
-            <p className="text-[#353434] font-bold drop-shadow-l text-[15px]">
+            <p className="text-[#353434] font-bold drop-shadow-l text-[15px] md1000:mb-4">
               Fitness experts possess extensive knowledge and expertise in{" "}
               <br />
               various aspects of physical fitness, exercise, and health.

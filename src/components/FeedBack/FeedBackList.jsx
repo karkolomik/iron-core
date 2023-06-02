@@ -11,7 +11,7 @@ import FeedBackBoxes from "./FeedBackBoxes";
 function FeedBackList() {
   return (
     <>
-      <section className="my-[10rem] mx-auto">
+      <section className="my-[10rem] mx-auto md1000:my-[5rem]">
         <div className="container page-padding">
           {/* title */}
           <div className="text-center relative items-center w-full flex flex-col">
@@ -26,14 +26,14 @@ function FeedBackList() {
               <img
                 src={ClientImage}
                 alt="Client"
-                className="absolute bottom-0 -left-10 z-20 h-[40rem] rounded-tr-[200px] md:1000-hidden"
+                className="absolute bottom-0 -left-10 z-20 h-[40rem] rounded-tr-[200px] md1000:hidden"
               />
 
               <div className="flex">
                 <FeedBackBoxes />
               </div>
 
-              <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[52px] min540:right-[17px]">
+              <div className="flex gap-3 absolute bottom-[25px] right-[35px] z-20 min540:-bottom-[68px] min540:right-[17px]">
                 <button
                   title="left"
                   style={{ transition: "all 0.2s" }}
@@ -54,7 +54,7 @@ function FeedBackList() {
         </div>
 
         <div
-          className="flex gap-24 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 flex-wrap
+          className="flex gap-24 justify-center mt-32 border-b border-solid border-[#64646438] pb-28 flex-wrap md1000:hidden
         "
         >
           <img

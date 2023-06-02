@@ -8,13 +8,13 @@ function Featured() {
       <section id="featured" className="page-padding py-[12.5rem] bg-white">
         <div className="container">
           <div className="flex flex-col text-center items-center relative">
-            <p className="font-semibold text-white text-[15px] relative uppercase z-10">
+            <p className="font-semibold text-white text-[15px] relative uppercase z-10 md1000:pb-[0px] md1000:-top-[4.3rem] md1000:max-w-xs">
               THe Most popular classes
             </p>
             <img
               src={BgSplash}
               alt="s"
-              className=" w-[30%] absolute -top-[9rem]"
+              className=" w-[30%] absolute -top-[9rem] md1000:w-[80%]"
             />
             <h2 className="pt-12 text-[3.6rem] text-black font-bold my-8">
               Don't waste time, join us now!

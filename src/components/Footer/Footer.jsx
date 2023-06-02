@@ -6,9 +6,9 @@ function Footer() {
     <>
       <footer className="bg-white">
         <div className="container page-padding py-[10rem]">
-          <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left">
-            <div className="flex flex-col w-1/3 gap-8">
-              <img src={FooterLogo} alt="Footer Logo" className="w-[18rem]" />
+          <div className="flex justify-between min620:flex-col min620:items-center min620:text-center min620:gap-[5rem] !text-left md1000:w-full">
+            <div className="flex flex-col w-1/3 gap-8 md1000:w-full md1000:items-center">
+              <img src={FooterLogo} alt="Footer Logo" className="w-[18rem] " />
               <p className="text-[18px] font-medium text-[#646464]">
                 Transform Your Life - Empower Your Body, Ignite Your Passion for
                 Fitness.
@@ -31,7 +31,7 @@ function Footer() {
                   className="fa-brands fa-youtube bg-[#efefef] p-4 rounded-full  hover:bg-[#ff0366] hover:text-white"
                 ></i>
               </div>
-              <p className="text-[16px] font-medium text-[#646464]">
+              <p className="text-[16px] font-medium text-[#646464] md1000:text-center">
                 Privacy Policy | © {new Date().getFullYear} IronCore <br />
                 Design by
                 <a

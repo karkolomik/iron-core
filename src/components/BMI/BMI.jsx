@@ -25,7 +25,7 @@ function BMI() {
 
   return (
     <>
-      <section className="bmi-section py-[4rem] relative">
+      <section className="bmi-section py-[4rem] relative md1000:hidden">
         <div className="container page-padding">
           <span className="w-full h-full absolute bg-transparent min620:bg[#00000063] top-0 left-0"></span>
           <div className=" w-[35rem] min620:w-[100%] relative right-28">

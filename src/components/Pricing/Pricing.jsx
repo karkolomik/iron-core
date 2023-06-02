@@ -9,7 +9,7 @@ function Pricing() {
   return (
     <>
       <section id="pricing" className="pricing-section relative">
-        <div className="container page-padding py-[12rem]">
+        <div className="container page-padding py-[12rem] md1000:py-[6rem]">
           <div className="flex flex-col text-center relative items-center">
             <p className="text-white relative z-10 text-[20px] uppercase font-bold mb-8">
               PRICING LIST
@@ -29,7 +29,7 @@ function Pricing() {
             </p>
           </div>
 
-          <div className="flex gap-8 mt-20 relative z-[2] md1000:flex-col md1000:items-center">
+          <div className="flex gap-8 mt-20 relative z-[2] md1000:flex-col md1000:items-center md1000:w-auto md1000:gap-2">
             <PricingBox
               img={image1}
               price={50}

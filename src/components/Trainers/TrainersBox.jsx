@@ -36,7 +36,7 @@ function TrainersBox() {
   return (
     <>
       <div
-        className="flex justify-center gap-[6rem] md1200:flex-wprap"
+        className="flex justify-center gap-[6rem] md1200:flex-wrap"
         style={{ margin: "0 auto" }}
       >
         {trainers.map((trainer, id) => (
@@ -60,12 +60,12 @@ function TrainersBox() {
               className={`absolute top-[15px] w-full scale-[1.2]`}
             />
 
-            <div className="box-desc bg-white w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px]">
+            <div className="box-desc bg-white w-full text-center shadow-lg z-20 rounded-[6px] px-[20px] py-[30px] absolute -bottom-[31px] md1000:w-auto">
               <h3 className="font-bold text-[1.5rem]">{trainer.name}</h3>
               <p className="font-medium text-[1.5rem] text-[#646464] ">
                 {trainer.job}
               </p>
-              <div className="flex gap-8 text-[#646464] w-full justify-center mt-5 text-[1.6rem]">
+              <div className="flex gap-8 text-[#646464] w-full justify-center mt-5 text-[1.6rem] md1000:w-full md1000:w-auto flex-col">
                 <i className="fa-brands fa-facebook-f"></i>
                 <i className="fa-brands fa-twitter"></i>
                 <i className="fa-brands fa-instagram"></i>

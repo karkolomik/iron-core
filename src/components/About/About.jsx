@@ -23,18 +23,18 @@ function About() {
             className="grid grid-cols-[50fr,50fr] gap-[3rem] md1000:grid-cols-1"
           >
             <div className="mt-[10.5rem] relative md1000:items-center md1000:flex md1000:flex-col md1000:text-center md1000:w-[full]">
-              <p className="text-white font-semibold text-[15px] relative uppercase z-10 pl-16 md1000:pl-0 mb-12">
+              <p className="text-white font-semibold text-[15px] relative uppercase z-10 pl-16 md1000:pl-0 mb-8">
                 why us ?
               </p>
               <img
                 src={BgLogo}
                 alt=""
-                className="w-[25%] absolute top-[-24px] md1000:w-[22rem]"
+                className="w-[25%] absolute top-[-30px] md1000:w-[16rem]"
               />
               <h2 className="text-[35px] font-bold leading-tight mb-6 w-[60rem] min800:w-[100%]">
                 Unleash the Next Level of Health and Body Transformation
               </h2>
-              <p className="text-[16px] text-[#646464] font-medium">
+              <p className="text-[16px] text-[#646464] font-medium md1000:text-black">
                 Our Dedicated Professionals are Equipped with the Knowledge and
                 Experience to Tailor a Personalized Fitness Plan that Will
                 Propel You towards Achieving Your Desired Results.

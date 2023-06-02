@@ -17,7 +17,7 @@ function Hero() {
             <img
               src={BgLogo}
               alt="s"
-              className=" w-[44%] absolute -top-10 left-8 title-white min800:w-[24rem] "
+              className=" w-[44%] absolute -top-10 left-8 title-white min800:w-[26rem]"
             />
             <h1 className="font-bold text-[48px] uppercase mb-[4rem] min450:text-[40px] mt-20">
               &nbsp;&nbsp;dedicate yourself <br /> towards fitness

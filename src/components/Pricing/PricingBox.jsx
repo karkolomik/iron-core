@@ -4,13 +4,13 @@ import MainButton from "../MainButton";
 function PricingBox({ img, price, text1, text2, text3, title }) {
   return (
     <>
-      <div className="flex flex-col w-1/3 md:1000w-[40rem] bg-white shadow-xl relative min540w:-[100%]">
+      <div className="flex flex-col w-1/3 md:1000w-[40rem] bg-white shadow-xl relative md1000:w-full">
         <div
           className="relative grayscale hover:grayscale-0"
           style={{ transition: "all 0.3s" }}
         >
-          <img src={img} alt="image" className="w-full h-full" />
-          <div className="absolute bg-white text-[22px] font-bold w-[25rem] text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto">
+          <img src={img} alt="image" className="w-full h-full md1000:hidden" />
+          <div className="absolute bg-white text-[22px] font-bold w-[25rem] text-center py-6 text-[#ff0336] -bottom-[18px] left-0 right-0 mx-auto md1000:w-auto">
             {title}
           </div>
         </div>

@@ -19,7 +19,7 @@ function Classes() {
   return (
     <>
       <section className="login-section text-center">
-        <div className="login-banner relative justify-center flec">
+        <div className="login-banner relative justify-center flex">
           <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
             Classes
           </h1>

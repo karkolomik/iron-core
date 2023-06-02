@@ -11,9 +11,9 @@ import VideoImage from "../../images/choose-us/VideoFrame3.png";
 function ChooseUs() {
   return (
     <>
-      <section className="choose-section py-[12rem]">
-        <div className="container page-padding flex flex-row md:1000-flex-col md:1000-items-center gap-[7rem]">
-          <div className="video-div relative w-[50%] md1000:w-[85%] md1000:flex md1000:justify-center ">
+      <section className="choose-section py-[12rem] md1000:py-[6rem]">
+        <div className="container page-padding flex flex-row md:1000-flex-col md:1000-items-center gap-[7rem] md1000:pr-0">
+          <div className="video-div relative w-[50%] md1000:hidden">
             <img
               src={VideoImage}
               alt="video"
@@ -28,13 +28,13 @@ function ChooseUs() {
           </div>
 
           <div className="relative w-[50%] md1000:flex md1000:flex-col md1000:items-center md1000:text-center md1000:w-[85%]">
-            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14">
+            <p className="text-white relative z-10 text-[16px] uppercase font-bold mb-14 md1000:mb-15 ">
               our benefits
             </p>
             <img
               src={BgLogo}
               alt="bg"
-              className="w-[20rem] absolute -top-[42px] -left-14 md:1000:hidden"
+              className="w-[20rem] absolute -top-[42px] -left-14 md:1000:hidden md1000:w-[72%] md1000:left-16 md:1000:hidden"
             />
             <h2 className="text-[3.6rem] text-white font-bold leading-[1.2] max-w-3xl md1000:max-w-[80%]">
               Discover the Difference: Your Journey to Fitness Excellence Starts
