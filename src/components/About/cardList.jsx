@@ -2,7 +2,7 @@ import DumbbelImage from "../../images/AboutPage/Dumbbell.png";
 import HeartImage from "../../images/AboutPage/Heart.png";
 import BullsEye from "../../images/AboutPage/BullsEye.png";
 
-export const cardList = [
+const cardList = [
   {
     img: HeartImage,
     title: "Condition",
@@ -22,3 +22,5 @@ export const cardList = [
       "Empower Yourself, Achieve Your Goals - Together, We Make It Happen",
   },
 ];
+
+export default cardList;
